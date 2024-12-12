@@ -67,7 +67,7 @@ DROP DATABASE loja;
 > CREATE TABLE tabela1 (coluna1 tipo1, coluna2 tipo2, coluna3 tipo3)
 ````sql
 CREATE TABLE clientes (
-  id INT PRIMARY KEY,
+  id INT PRIMARY KEY AUTO_INCREMENT,
   nome VARCHAR(255),
   email VARCHAR(255)
 );
